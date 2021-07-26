@@ -138,10 +138,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-position: center;
 }
 .fotoBox__texto{
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: rgba(240, 235, 235, 0.897);
 }
@@ -303,6 +304,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-position: center;
 
     .textoHeader{
         font-weight: bolder;
@@ -366,6 +368,7 @@ td{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-position: center;
     .textoHeader{
         font-weight: bolder;
         font-size: 2rem;
@@ -469,6 +472,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-position: center;
 
         .textoHeader{
             font-weight: bolder;
@@ -546,6 +550,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-position: center;
 }
 #fotoboxContacto__textoHeader{
     font-weight: bolder;
@@ -873,6 +878,95 @@ section{
     }
     section form fieldset div .enviar {
         width: 25%;
+        color: white;
+        background-color: #8d1414;
+    }
+    .footerLabel{
+        label{
+            text-align: center;
+        }
+    }
+    .inputFooter{
+        width: 100%;
+        display: flex;
+    }
+    .footerRedes{
+        width: 20%;
+        margin: 0 auto;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        .flexRedes{
+            li{
+                margin: 6px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px){
+    #mainCarta{
+        #burgerList{
+            display: grid;
+            gap: 1.5rem;
+            width: 100%;
+            grid-template-columns: 1fr ;
+            grid-template-rows: repeat(6,1fr);
+            box-sizing: border-box;
+            padding: 1rem;
+            background: rgb(125,17,21);
+            background: -moz-radial-gradient(circle, rgba(125,17,21,1) 0%, rgba(100,29,31,1) 46%, rgba(100,29,31,1) 58%, rgba(144,25,25,1) 100%);
+            background: -webkit-radial-gradient(circle, rgba(125,17,21,1) 0%, rgba(100,29,31,1) 46%, rgba(100,29,31,1) 58%, rgba(144,25,25,1) 100%);
+            background: radial-gradient(circle, rgba(125,17,21,1) 0%, rgba(100,29,31,1) 46%, rgba(100,29,31,1) 58%, rgba(144,25,25,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7d1115",endColorstr="#901919",GradientType=1);;
+        }
+    }
+    body{
+        width: 100%;
+        #grillaDireccion {
+            display: grid;
+            gap: 1.5rem;
+            width: 100%;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr;
+            box-sizing: border-box;
+            padding: 1rem;
+            margin: 50px 0px 50px;
+        }
+    }
+    #boxMap{
+    width: 290px;
+    height: 315px;
+    }
+    .grillaMain{
+        display: grid;
+        box-sizing: border-box;
+        width: 100%;
+        grid-template-columns:28% 65%;
+        grid-template-rows: auto;
+        grid-column-gap: 5%;
+        grid-template-areas:
+        "imagen imagen"
+        "presentacion presentacion";
+        margin-bottom: 50px;
+    }
+    td{
+        padding: 10px;
+        padding-left: 15px;
+    }
+    #gridIndex{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        justify-self: center;
+        justify-content: center;
+        align-items: center;
+        .cardIndex{
+            width: 100%;
+        }
+    }
+    section form fieldset div .enviar {
+        width: 30%;
         color: white;
         background-color: #8d1414;
     }
