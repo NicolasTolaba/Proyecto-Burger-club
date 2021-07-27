@@ -234,8 +234,6 @@ body{
     border-radius: 10px 10px 10px 10px;
     width: 350px;
     height: 380px;
-    margin: 2% 0 2% 0;
-    margin-left: 9%;
     display: inline-block;
     background-size: cover;
     position: relative;
@@ -247,7 +245,7 @@ body{
 
 .cardIndex__text{
     position: absolute;
-    padding: 30px;
+    padding-top: 15px;
     z-index: 6;
     h1{
         @include tipografiaBase($Raleway, 1.8rem, null, 700, null, null);
@@ -705,10 +703,11 @@ section{
     #gridIndex{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: 2fr;
         justify-self: center;
         justify-content: center;
         align-items: center;
+        justify-items: center;
     }
 
 }
@@ -725,6 +724,7 @@ section{
         justify-self: center;
         justify-content: center;
         align-items: center;
+        justify-items: center;
     }
 
     #boxMap{
@@ -758,6 +758,7 @@ section{
         justify-self: center;
         justify-content: center;
         align-items: center;
+        justify-items: center;
     }
     .grillaMain{
         display: grid;
@@ -869,6 +870,7 @@ section{
         justify-self: center;
         justify-content: center;
         align-items: center;
+        justify-items: center;
         .cardIndex{
             width: 100%;
         }
@@ -961,6 +963,7 @@ section{
         justify-self: center;
         justify-content: center;
         align-items: center;
+        justify-items: center;
         .cardIndex{
             width: 100%;
         }

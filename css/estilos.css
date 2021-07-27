@@ -240,8 +240,6 @@ body #footer .copy {
   border-radius: 10px 10px 10px 10px;
   width: 350px;
   height: 380px;
-  margin: 2% 0 2% 0;
-  margin-left: 9%;
   display: inline-block;
   background-size: cover;
   position: relative;
@@ -253,7 +251,7 @@ body #footer .copy {
 
 .cardIndex__text {
   position: absolute;
-  padding: 30px;
+  padding-top: 15px;
   z-index: 6;
 }
 
@@ -648,10 +646,11 @@ section form fieldset div .enviar {
   #gridIndex {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 2fr;
     justify-self: center;
     justify-content: center;
     align-items: center;
+    justify-items: center;
   }
 }
 
@@ -666,6 +665,7 @@ section form fieldset div .enviar {
     justify-self: center;
     justify-content: center;
     align-items: center;
+    justify-items: center;
   }
   #boxMap {
     width: 300px;
@@ -697,6 +697,7 @@ section form fieldset div .enviar {
     justify-self: center;
     justify-content: center;
     align-items: center;
+    justify-items: center;
   }
   .grillaMain {
     display: grid;
@@ -791,6 +792,7 @@ section form fieldset div .enviar {
     justify-self: center;
     justify-content: center;
     align-items: center;
+    justify-items: center;
   }
   #gridIndex .cardIndex {
     width: 100%;
@@ -873,6 +875,7 @@ section form fieldset div .enviar {
     justify-self: center;
     justify-content: center;
     align-items: center;
+    justify-items: center;
   }
   #gridIndex .cardIndex {
     width: 100%;
