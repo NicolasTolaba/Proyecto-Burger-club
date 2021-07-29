@@ -27,6 +27,7 @@ body {
         width: 115px;
         height: 100%;
         text-align: center;
+        justify-content: center;
         align-content: space-between; }
         body header nav div .aIndex {
           height: 100%;
@@ -42,7 +43,6 @@ body {
         flex-flow: row nowrap;
         align-items: center;
         list-style: none;
-        margin-left: 3%;
         margin-right: 0%;
         align-content: space-between; }
         body header nav ul li {
