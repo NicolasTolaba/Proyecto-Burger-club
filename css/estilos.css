@@ -103,7 +103,7 @@ body {
   justify-content: center;
   background-position: center; }
 
-.fotoBox__texto {
+.fotoBoxtexto {
   font-weight: bolder;
   font-size: 1.5rem;
   text-align: center;
@@ -124,7 +124,7 @@ body {
   height: 400px;
   grid-area: imagen; }
 
-.divPresentación__img {
+.divPresentaciónImg {
   background-position: center right;
   width: 100%;
   height: 100%; }
@@ -151,11 +151,11 @@ body {
   padding: 30px;
   border-radius: 10px 10px 10px 10px; }
 
-.contenidoIng__ing {
+.boxIng {
   width: 100%;
   height: 100%; }
 
-.contenidoIng__ing--te {
+.contenidoIngTexto {
   font-size: 1.8rem;
   align-self: center;
   justify-content: center;
@@ -163,13 +163,13 @@ body {
   font-weight: 600;
   margin-bottom: 45px; }
 
-.contenidoIng__ing--check {
+.contenidoIngLista {
   list-style: none;
   padding: 0px; }
-  .contenidoIng__ing--check li {
+  .contenidoIngLista li {
     font-size: 1rem;
     font-weight: 500; }
-    .contenidoIng__ing--check li p {
+    .contenidoIngLista li p {
       font-size: 0.8rem;
       font-weight: normal; }
 
@@ -194,19 +194,19 @@ body {
   color: white;
   text-align: center; }
 
-.cardIndex__text {
+.cardIndexText {
   position: absolute;
   padding-top: 15px;
   z-index: 6; }
-  .cardIndex__text h1 {
+  .cardIndexText h1 {
     font-family: "raleway";
     font-size: 1.8rem;
     font-weight: 700; }
-  .cardIndex__text h2 {
+  .cardIndexText h2 {
     font-family: "raleway";
     font-size: 1.2rem;
     margin: 30px 0 0 0; }
-  .cardIndex__text p {
+  .cardIndexText p {
     font-family: "raleway";
     font-size: 1rem;
     font-weight: 300;
@@ -231,7 +231,7 @@ body {
   left: 0;
   z-index: 4; }
 
-.cardIndex__img {
+.cardIndexImg {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -677,7 +677,7 @@ section form {
     .footerRedes .flexRedes li {
       margin: 6px; } }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   #mainCarta #burgerList {
     display: grid;
     gap: 1.5rem;

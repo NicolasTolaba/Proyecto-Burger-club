@@ -141,7 +141,7 @@ body{
     justify-content: center;
     background-position: center;
 }
-.fotoBox__texto{
+.fotoBoxtexto{
     font-weight: bolder;
     font-size: 1.5rem;
     text-align: center;
@@ -166,7 +166,7 @@ body{
     grid-area: imagen;
 }
 
-.divPresentación__img{
+.divPresentaciónImg{
     background-position: center right;
     width: 100%;
     height: 100%;
@@ -198,11 +198,11 @@ body{
 }
 
 
-.contenidoIng__ing{
+.boxIng{
     width: 100%;
     height: 100%;
 }
-.contenidoIng__ing--te{
+.contenidoIngTexto{
     font-size: 1.8rem;
     align-self: center;
     justify-content: center;
@@ -210,7 +210,7 @@ body{
     font-weight: 600;
     margin-bottom: 45px;
 }
-.contenidoIng__ing--check{
+.contenidoIngLista{
     list-style: none;
     padding: 0px;
     li{
@@ -244,7 +244,7 @@ body{
     text-align: center;
 }
 
-.cardIndex__text{
+.cardIndexText{
     position: absolute;
     padding-top: 15px;
     z-index: 6;
@@ -283,7 +283,7 @@ body{
     z-index: 4;
 }
 
-.cardIndex__img{
+.cardIndexImg{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -911,7 +911,7 @@ section{
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px){
+@media screen and (max-width: 375px){
     #mainCarta{
         #burgerList{
             display: grid;
