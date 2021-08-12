@@ -5,4 +5,4 @@ Hola! Mi nombre es Nicolás, me gusta mucho el enorme mundo de la programación 
 - 💻 Me interesa mucho el mundo IT.
 - 🎬 Inicié mi primer proyecto.
 
-Este proyecto trata de un restaurante de hamburguesas, donde nos interesa que en cada cliente despierte una sensación nunca antes experimentada con cada hamburguesa y nos interesa que cada persona pueda compartir una hamburgesa con quien más quiera.
+Este proyecto trata de un restaurante de hamburguesas, donde nos interesa que en cada cliente despierte una sensación nunca antes experimentada con cada hamburguesa y nos importa que cada persona pueda compartir una hamburgesa con quien más quiera.
