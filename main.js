@@ -43,23 +43,19 @@ const productos = [
     },
 ]
 
-function ingresoCantidad(){
+function ingresoCantidad(arreglo){
     let cantidad = parseInt(prompt("Ingresa la cantidad de hamburguesas"));
     for(let i = 1; i <= cantidad; i++){
         let entrada = prompt("Ingresar nombre de la hamburguesa");
-        if (entrada == productos[i].nombre){
-            let precioTotal = productos[i].precio
-            console.log(precioTotal)
+        for(let j= 0; j < arreglo.lenght; j++){
+            if(entrada == arreglo[j].precio){
+                console.log(arreglo[j].precio);
+            }
         }
     }
 }
 
-ingresoCantidad()
-
-
-
-
-
+ingresoCantidad(productos);
 
 
 
