@@ -31,22 +31,22 @@ const burgers = [
     },
 ]
 
-const contenedorProductos = document.getElementById(burgerItem)
+const contenedorProductos = document.getElementsByClassName("burgerItem")
+
 
 burgers.forEach((burgers) => {
     const img = document.createElement("img")
     img.className = "img"
 
     img.innerHTML = `
-            <img src=${burgers[0].img} alt="Hamburguesa clásica">
+            <img src=${burgers,img} alt="Hamburguesa clásica">
                                 <div class="contenidoCarta">
-                                    <h2>${burgers[0].nombre}</h2>
+                                    <h2>${burgers.nombre}</h2>
                                     <h4>Hamburguesa con un medallon de carne (100gr), feta de queso cheddar, lechuga, tomate, pepinos y salsa burgerclub.</h4>
                                 </div>
                                 <div id="precio">
-                                    <p>$${burgers[0].precio}</p>
+                                    <p>$${burgers.precio}</p>
                                 </div>
                                 <button class="compra">AGREGAR AL CARRITO</button>`
 
 })
-
