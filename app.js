@@ -48,17 +48,21 @@ burgers.forEach((burgers) => {
                                     <p>$${burgers.precio}</p>
                                 </div>
                                 <button class="compra">AGREGAR AL CARRITO</button>`
-
 })
 
 // Form
+
 const formulario = document.getElementById("formulario");
 const inputNombre = document.getElementsById("input1");
 const inputCorreo = document.getElementsById("inputCorreo");
 const inputConsulta = document.getElementsById("consulta");
 
-console.log("hola")
-formulario.addEventListener('submit', () => {
+formulario.addEventListener('submit', (e) => {
+
+    e.preventDefault()
+
+    console.log(e)
+
     const nombre = inputNombre.value
     const correo = inputCorreo.value
     const consulta = inputConsulta.value
